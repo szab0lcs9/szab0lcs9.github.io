@@ -44,7 +44,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 0.8 }}
         >
-          Building the Future of the Web
+          Lorem ipsum
         </motion.h2>
         <p className="text-gray-400 mt-6 max-w-xl mx-auto text-lg">
           Passionate about creating modern, interactive, and user-friendly web applications with the latest technologies.
@@ -66,7 +66,7 @@ export default function Home() {
           whileHover={{ scale: 1.05 }}
         >
           <h3 className="text-3xl font-semibold mb-3 text-blue-400">About Me</h3>
-          <p className="text-gray-400">I'm a creative and detail-oriented frontend developer, turning ideas into visually engaging and functional web applications.</p>
+          <p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempore dicta nulla aliquam. Doloribus et suscipit a praesentium pariatur quo error atque, odio aliquid corporis beatae adipisci dolor porro provident..</p>
         </motion.div>
         
         <motion.div 
@@ -81,7 +81,7 @@ export default function Home() {
       
       {/* Footer */}
       <footer className="mt-32 py-8 w-full text-center bg-gray-900 bg-opacity-80 backdrop-blur-lg relative z-10">
-        <p className="text-gray-400 text-lg">&copy; 2025 Frontend Developer Portfolio. All Rights Reserved.</p>
+        <p className="text-gray-400 text-lg">&copy; 2025 Veres Szabolcs. All Rights Reserved.</p>
         <div className="flex justify-center gap-6 mt-6">
           <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
             <Github className="w-9 h-9 text-blue-400 hover:text-blue-300 transition duration-300" />
