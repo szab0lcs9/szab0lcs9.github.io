@@ -1,1 +1,0 @@
-# szab0lcs9.github.io
