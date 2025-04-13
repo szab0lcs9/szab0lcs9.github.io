@@ -8,18 +8,18 @@ const projects = [
         link: "https://szab0lcs9.github.io/",
     },
     {
-        title: "",
-        description: "",
-        tech: "",
+        title: "Kanban Board App",
+        description: "A Kanban board application with AI integration. I was part of the Frontend team.\nMy role was to create the UI/UX. Implement functionalities like navbar, sidebar, menu, cards, and drag-and-drop features.",
+        tech: "Laravel, React, MySQL",
         img: "",
         link: "",
     },
     {
-        title: "",
+        title: "Unity Desktop Game",
         description: "",
-        tech: "",
+        tech: "Unity, C#",
         img: "",
-        link: "",
+        link: "https://github.com/szab0lcs9/stellar-siege",
     },
     {
         title: "",
@@ -44,9 +44,15 @@ const Projects = () => {
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.6 }}>
                         <h3 className="text-xl font-semibold text-blue-400">{project.title}</h3>
+                        <img src={project.img.length > 0 ? project.img : null} alt={project.title} className="mt-4 rounded-lg" />
                         <p className="text-gray-300 mt-2">{project.description}</p>
                         <p className="text-gray-500 mt-1">{project.tech}</p>
-                        <a href={project.link} target={project.link} rel="noopener noreferrer" className="text-blue-400 mt-4 inline-block">View Project</a>
+                        {
+                            project.link && 
+                            project.link.length > 0 ?
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-blue-400 mt-4 inline-block">View Project</a>
+                            : <p className="text-gray-600 mt-4 inline-block">View Project</p>
+                        }
                     </motion.div>
                 ))}
             </div>
