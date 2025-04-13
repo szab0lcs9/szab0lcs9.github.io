@@ -15,7 +15,7 @@ const Navbar = () => {
                 initial={{ opacity: 0, x: -60 }} 
                 animate={{ opacity: 1, x: 0 }} 
                 transition={{ duration: 0.6 }}
-            ><Link to="/">Veres Szabolcs</Link>
+            ><Link to="/">Szabolcs Veres</Link>
             </motion.h1>
             <nav className='hidden md:flex'>
                 <ul className="flex gap-8 text-lg font-medium text-blue-300">

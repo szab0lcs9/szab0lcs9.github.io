@@ -1,6 +1,6 @@
-export default function About() {
+const About = () => {
     return (
-        <>
-        </>
-    );
-}
+        <></>
+    )
+};
+export default About;
