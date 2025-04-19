@@ -5,7 +5,7 @@ import profileImg from "../assets/react.svg"; // make sure to place your photo i
 
 const Home = () => {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-20 px-6 py-16 md:py-32 max-w-7xl mx-auto z-10">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-20 px-6 py-16 md:py-32 max-w-7xl mx-auto">
       
       {/* Left: Text */}
       <motion.div

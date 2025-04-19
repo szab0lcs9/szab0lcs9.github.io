@@ -5,7 +5,7 @@ const ContactForm = () => {
     }
 
     return (
-        <div className="w-full md:w-200 bg-0 p-10 z-100">
+        <div className="w-full md:w-200 bg-0 p-10">
             <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
             <p className="mb-4">Feel free to reach out to me via email or connect with me on LinkedIn!</p>
             <form className="bg-0">

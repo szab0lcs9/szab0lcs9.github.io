@@ -37,7 +37,7 @@ const Navbar = () => {
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -10 }}
-                    className="absolute top-full left-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-md text-center py-6 flex flex-col gap-6 text-lg text-blue-300 md:hidden z-100"
+                    className="absolute top-full left-0 w-full bg-gray-900 bg-opacity-95 backdrop-blur-md text-center py-6 flex flex-col gap-6 text-lg text-blue-300 z-100 md:hidden"
                 >
                     <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-blue-400 transition">About</Link>
                     <Link to="/projects" onClick={() => setMenuOpen(false)} className="hover:text-blue-400 transition">Projects</Link>
