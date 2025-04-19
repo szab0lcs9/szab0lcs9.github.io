@@ -22,13 +22,13 @@ export const education: ResumeItem[] = [
   },
   {
     title: "Financial Intermediation Exam",
-    institution: "Hunagrian National Bank",
+    institution: "Hungarian National Bank",
     date: "2017. April",
     description: "Passed the Financial Intermediator Exam, demonstrating knowledge of financial products."
   },
   {
     title: "Insurance Broker Exam",
-    institution: "Hunagrian National Bank",
+    institution: "Hungarian National Bank",
     date: "2014. November",
     description: "Passed the Insurance Broker Exam, demonstrating knowledge of insurance products and regulations."
   },
