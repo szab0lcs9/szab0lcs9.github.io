@@ -21,10 +21,10 @@ export const education: ResumeItem[] = [
     description: "Passed the intermediate level math remedial exam, demonstrating proficiency in mathematical concepts and problem-solving skills."
   },
   {
-    title: "Financial Market Product Salesperson Exam",
+    title: "Financial Intermediation Exam",
     institution: "Hunagrian National Bank",
     date: "2017. April",
-    description: "Passed the Financial Market Product Salesperson Exam, demonstrating knowledge of financial products."
+    description: "Passed the Financial Intermediator Exam, demonstrating knowledge of financial products."
   },
   {
     title: "Insurance Broker Exam",
