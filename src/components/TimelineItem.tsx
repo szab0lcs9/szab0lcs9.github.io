@@ -31,13 +31,13 @@ export const TimelineItem = ({
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="relative"
       >
-        <div className="absolute -left-8 top-18 w-4 h-4 bg-blue-500 rounded-full border-2 border-blue-500 shadow" />
+        <div className="absolute -left-8 top-8 w-4 h-4 bg-blue-500 rounded-full border-2 border-blue-500 shadow" />
         <div className="bg-white/5 backdrop-blur-xl p-10 rounded-2xl shadow-2xl">
           <h3 className="font-semibold text-lg">{title}</h3>
           <span className="text-sm text-gray-500 block mb-1">
             {isWork ? company : institution} — {date}
           </span>
-          <p className="text-gray-700 text-sm md:text-base">{description}</p>
+          <p className="text-gray-600 text-sm md:text-base">{description}</p>
         </div>
       </motion.div>
     );
