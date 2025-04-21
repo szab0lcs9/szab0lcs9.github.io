@@ -15,14 +15,19 @@ export const workExperience: ResumeItem[] = [
     title: "Technical Preparator, Plumber",
     company: "Dobos László EV.",
     date: "2020. March – Current",
-    description: "I have been gaining experience in the field of plumbing. I am making quotes and doing construction log administration. " +
+    description: "I have been gaining experience in the field of plumbing. I am making price quotationss and doing construction log administration. " +
     "I have learned how to work with different tools and machines. I have also learned how to work with different materials, such as copper, plastic, and steel. "
   },
   {
     title: "Technical Preparator",
     company: "Zele-Bau Építőipari Kft.",
     date: "2018. March – 2020. March",
-    description: ""
+    description: "I have alculated construction material requirements based on architectural plans and on-site surveys, " +
+    "and prepared detailed price quotations for construction projects. I have also gained experience in construction log administration. " +
+    "I have managed procurement and ordering of construction materials, ensuring timely delivery to construction sites. " +
+    "I have coordinated with subcontractors and suppliers to ensure smooth workflow. " +
+    "I have prepared cost estimates and price quotations using the TERC software and compiled bid documentation for tender projects " +
+    "I also gained experience using Office software, such as Excel. "
   },
   {
     title: "Enterpreneur - OVB Financial Advisor",
