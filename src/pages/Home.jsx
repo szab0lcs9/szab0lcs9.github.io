@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import profileImg from "../assets/react.svg"; // make sure to place your photo in the assets folder
+import profileImg from "../assets/react.svg"; // replace with your real photo
 
 const Home = () => {
   return (
@@ -9,21 +9,24 @@ const Home = () => {
       
       {/* Left: Text */}
       <motion.div
-        className="flex flex-col items-start text-left"
-        initial={{ opacity: 0, x: -60 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
+        className="flex flex-col items-start text-left will-change-transform"
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-400 mb-4">
-          Hi, I'm Szabolcs Veres
+        Hey, I’m Szabolcs Veres!
         </h2>
         <p className="text-lg md:text-xl text-gray-300 max-w-xl mb-6 leading-relaxed">
-          I'm a passionate developer crafting interactive experiences and powerful web applications. Explore my portfolio to see what I've built.
+        I love building fun, interactive stuff—whether it’s a sleek website or a quirky little game. I’m especially into frontend development and game design, and I’ve been spending my time learning, experimenting, and bringing ideas to life.
+        </p>
+        <p className="text-lg md:text-xl text-gray-300 max-w-xl mb-6 leading-relaxed">
+        This is my little corner of the internet where I share the projects I’ve been working on. Take a look around!
         </p>
         <div className="flex gap-4">
           <Link
             to="/projects"
-            className="inline-flex items-center gap-2 px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-2xl shadow-md transition"
+            className="inline-flex items-center gap-2 px-6 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-2xl shadow-sm transition"
           >
             View Projects <ArrowRight size={20} />
           </Link>
@@ -38,10 +41,10 @@ const Home = () => {
 
       {/* Right: Image */}
       <motion.div
-        className="relative w-60 md:w-72 lg:w-80 shadow-2xl rounded-3xl overflow-hidden bg-gray-800 border border-gray-700"
+        className="relative w-60 md:w-72 lg:w-80 rounded-3xl overflow-hidden bg-gray-800 border border-gray-700 shadow-md will-change-transform"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
       >
         <img
           src={profileImg}
