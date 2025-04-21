@@ -11,22 +11,26 @@ const projects = [
         title: "Kanban Board App",
         description: "A Kanban board application with AI integration. I was part of the Frontend team.\nMy role was to create the UI/UX. Implement functionalities like navbar, sidebar, menu, cards, and drag-and-drop features.",
         tech: "Laravel, React, MySQL",
-        img: "",
+        img: "kanban_board.png",
         link: "",
     },
     {
         title: "Unity Desktop Game",
-        description: "",
+        description: "This project is my first 2.5D game made with Unity and C# for my thesis. " +
+        "The game is a strategy shooter game where you have to save the starship from enemies. " +
+        "You can collect gold from asteroids and buy upgrades for your ship." +
+        "The game is not finished yet, but I will continue to work on it." +
+        "In the development process, I focused on the SOLID principles, design patterns, and clean code." ,
         tech: "Unity, C#",
-        img: "",
+        img: "stellar_siege.png",
         link: "https://github.com/szab0lcs9/stellar-siege",
     },
     {
-        title: "",
-        description: "",
-        tech: "",
-        img: "",
-        link: "",
+        title: "Simple login-register form",
+        description: "A simple login and register form frontend project. This was one of my first projects.",
+        tech: "HTML, CSS, JavaScript",
+        img: "login_register_form.png",
+        link: "https://github.com/szab0lcs9/login-register-form",
     },
 ];
 
