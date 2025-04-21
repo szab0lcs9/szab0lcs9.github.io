@@ -37,7 +37,7 @@ export const TimelineItem = ({
           <span className="text-sm text-gray-500 block mb-1">
             {isWork ? company : institution} — {date}
           </span>
-          <p className="text-gray-600 text-sm md:text-base">{description}</p>
+          <p className="text-gray-300 text-sm md:text-base">{description}</p>
         </div>
       </motion.div>
     );
